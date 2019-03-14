@@ -6,4 +6,5 @@ def prime?(your_num)
       puts TRUE
     else
       puts FALSE
+    end
 end
