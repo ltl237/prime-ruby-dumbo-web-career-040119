@@ -5,4 +5,5 @@ def prime?(your_num)
     return TRUE
   else
     return FALSE
+  end
 end
