@@ -7,4 +7,5 @@ def prime?(your_num)
     else
       puts FALSE
     end
+  end
 end
