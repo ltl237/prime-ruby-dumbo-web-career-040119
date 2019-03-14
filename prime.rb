@@ -5,7 +5,7 @@ def prime?(your_num)
   #possible_nums.each do |trial|
   #  your_num % trial != 0
   
-  if your_num > 0 
+  if your_num > 1 
     (2..your_num-1).to_a.all? do |trial|
        puts !(your_num % trial != 0)
     end
