@@ -7,5 +7,7 @@ def prime?(your_num)
     (2..your_num-1).to_a.all? do |trial|
        puts (your_num % trial != 0)
      end
+   else
+     return FALSE
   end
 end
