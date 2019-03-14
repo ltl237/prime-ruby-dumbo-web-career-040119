@@ -1,9 +1,10 @@
 # Add  code here!
 
 def prime?(your_num)
-  if your_num > 0 
-    (2..your_num-1).to_a do |trial|
-       puts (your_num % trial != 0)
-    end
+  possible_nums = (2..your_num-1).to_a
+  possible_nums.each do |trial|
+    your_num % trial != 0 
   end
+  
+  
 end
